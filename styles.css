@@ -201,10 +201,16 @@ margin: 60px 0 60px 0;
 }
 .email-invalid{
     margin-top: 20px;
-    background-color: rgb(221, 75, 75);
+    background-color: rgb(219, 104, 104);
     border-radius: 8px;
     width: 250px;
-    font-weight: 700;
+    padding: 7px;
+}
+.email-valid{
+    margin-top: 20px;
+    background-color: var(--c-dark);
+    border-radius: 8px;
+    max-width: 350px;
     padding: 10px;
 }
 
