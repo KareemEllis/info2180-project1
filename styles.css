@@ -14,3 +14,34 @@ body {
     margin: 0;
     font-size: 16px;
 }
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+.overview-hero{
+    background-color: var(--c-light);
+}
+
+.learn-about{
+
+}
+
+.testing{
+    background-color: var(--c-dark);
+    color: var(--c-primary);
+}
+
+.stories{
+
+}
+
+.newsletter{
+    background-color: var(--c-secondary);
+}
+
+footer{
+    background-color: var(--c-dark);
+}
