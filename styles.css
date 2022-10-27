@@ -1,11 +1,16 @@
 /* Add your CSS to this file */
+:root{
+    --c-primary: #ffffff;
+    --c-secondary: #48BB78;
+    --c-accent: #5A67D8;
+    --c-dark: #4A5568;
+    --c-light: #E2E8F0;
+    --c-textmain: #6b7280;
+}
 body {
+    background-color: var(--c-primary);
+    color: var(--c-textmain);
+
     margin: 0;
     font-size: 16px;
-}
-
-.container {
-    margin: 0 auto;
-    max-width: 960px;
-    width: 100%;
 }
