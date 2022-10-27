@@ -36,12 +36,13 @@ header h1{
 }
 header ul{
     display: flex;
-
+    flex-wrap: wrap;
+    padding: 0;
     margin: 0;
     list-style-type: none;
 }
 header li{
-    margin-left: 15px;
+    margin-left: 10px;
     font-weight: 400;
 }
 header a{
@@ -66,10 +67,10 @@ header a:hover{
     width: 170px;
 }
 .overview-hero-image{
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .overview-hero-text{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 
@@ -126,7 +127,6 @@ header a:hover{
     text-decoration: none;
     border-radius: 5px;
     padding: 10px 25px 10px 25px;
-    margin: auto;
     white-space: nowrap;
 }
 
@@ -135,10 +135,50 @@ header a:hover{
 
 }
 
+
+/*************NEWSLETTER*****************/
 .newsletter{
     background-color: var(--c-secondary);
+    color: var(--c-primary);
+    padding: 80px;
+}
+.newsletter .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+}
+.newsletter h3{
+    margin: 0;
+}
+.newsletter p{
+    margin: 20px 0 20px 0;
+}
+.newsletter form{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
+    width: 100%;
+}
+.newsletter input{
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--c-light);
+}
+.newsletter button{
+    background-color: var(--c-accent);
+    color: var(--c-primary);
+    width: 100%;
+    padding: 18px;
+    border-radius: 5px;
+    border: 0.5px solid var(--c-accent);
+
 }
 
+
+/*************FOOTER*****************/
 footer{
     background-color: var(--c-dark);
     color: var(--c-primary);
