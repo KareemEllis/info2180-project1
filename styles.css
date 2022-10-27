@@ -24,7 +24,6 @@ body {
 header{
     color: var(--c-textmain);
     margin: 20px 0 20px 0; 
-
 }
 header .container{
     display: flex;
@@ -57,6 +56,20 @@ header a:hover{
 
 .overview-hero{
     background-color: var(--c-light);
+    padding: 30px;
+}
+.overview-hero .container{
+    display: flex;
+    align-items: center;
+}
+.overview-hero img{
+    width: 170px;
+}
+.overview-hero-image{
+    margin-right: 20px;
+}
+.overview-hero-text{
+    margin-left: 20px;
 }
 
 .learn-about{
