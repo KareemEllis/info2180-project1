@@ -53,7 +53,7 @@ header a:hover{
 }
 
 
-
+/*************OVERVIEW*****************/
 .overview-hero{
     background-color: var(--c-light);
     padding: 30px;
@@ -72,9 +72,38 @@ header a:hover{
     margin-left: 20px;
 }
 
-.learn-about{
 
+/*************LEARN ABOUT*****************/
+.learn-about{
+    margin: 10px 0 40px 0;
 }
+.learn-about .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.learn-about h2{
+    color: var(--c-secondary);
+    font-size: 24px;
+}
+.learn-about h3{
+    font-size: 18px;
+    color: var(--c-secondary);
+}
+.learn-about .card{
+    border: 1px solid var(--c-light);
+    border-radius: 5px;
+    box-shadow: 0 3px 2px var(--c-light);
+    overflow: hidden;
+}
+.learn-about .card img{
+    width: 100%;
+}
+.learn-about .card-body{
+    padding: 20px;
+}
+
+
 
 .testing{
     background-color: var(--c-dark);
