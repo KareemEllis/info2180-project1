@@ -104,11 +104,32 @@ header a:hover{
 }
 
 
-
+/*************TESTING*****************/
 .testing{
     background-color: var(--c-dark);
     color: var(--c-primary);
+    padding: 90px 50px 90px 50px;
 }
+.testing .container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 30px;
+}
+.testing .cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testing .btn{
+    background-color: var(--c-secondary);
+    color: var(--c-primary);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 25px 10px 25px;
+    margin: auto;
+    white-space: nowrap;
+}
+
 
 .stories{
 
