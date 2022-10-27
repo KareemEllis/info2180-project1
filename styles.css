@@ -205,14 +205,17 @@ margin: 60px 0 60px 0;
     border-radius: 8px;
     width: 250px;
     padding: 7px;
+    font-size: 14px;
 }
 .email-valid{
     margin-top: 20px;
     background-color: var(--c-dark);
     border-radius: 8px;
-    max-width: 350px;
+    max-width: 400px;
     padding: 10px;
+    font-size: 14px;
 }
+
 
 
 /*************FOOTER*****************/
